@@ -25,8 +25,7 @@ export function StackOverflowProfile(props : IProfileProps) {
      
     const [userState, setUserState] = useState<IUserData>();
 
-    useEffect(() => {
-        debugger;
+    useEffect(() => { 
         axios.get(`https://api.stackexchange.com/2.2/users/${props.userId}?site=stackoverflow`)
             .then((data: any) => {
                 setUserState(data.data.items[0])
