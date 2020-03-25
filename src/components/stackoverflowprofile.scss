@@ -1,0 +1,121 @@
+html {
+    background: #ddd;
+  }
+  
+  .stackoverflow-profile-loading {
+    width: 320px;
+    height: 130px;
+    position: relative;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+  .stackoverflow-profile-loading span {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+  }
+  
+  .stackoverflow-profile {
+    background: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 130px;
+    position: relative;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .stackoverflow-profile .stackoverflow-icon {
+    background: url(http://sstatic.net/stackexchange/img/logos/so/so-icon.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    opacity: 0.2;
+  }
+  .stackoverflow-profile img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 1px solid #fafafa;
+  }
+  .stackoverflow-profile .top {
+    flex-basis: 75px;
+    background: #ecf0f1;
+    padding-left: 130px;
+    padding-top: 15px;
+  }
+  .stackoverflow-profile .top div {
+    margin-bottom: 3px;
+  }
+  .stackoverflow-profile .top .profile-name {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  .stackoverflow-profile .top .profile-location {
+    opacity: 0.5;
+    color: #2c3e50;
+    font-size: 0.9em;
+  }
+  .stackoverflow-profile .top .profile-stats-repo {
+    font-size: 22px;
+    color: #27ae60;
+  }
+  .stackoverflow-profile .top .profile-stats-repo::after {
+    content: "REP";
+    font-size: 16px;
+    color: #bdc3c7;
+    opacity: 0.5;
+    padding-left: 1px;
+  }
+  .stackoverflow-profile .bottom {
+    flex: 1;
+    padding-left: 130px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 7px;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-gold {
+    flex-grow: 1;
+    color: #f39c12;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-gold::after {
+    content: "GOLD";
+    font-size: 8px;
+    color: #f39c12;
+    opacity: 0.8;
+    padding-left: 1px;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-silver {
+    flex-grow: 1;
+    color: #95a5a6;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-silver::after {
+    content: "SILVER";
+    font-size: 8px;
+    color: #95a5a6;
+    opacity: 0.8;
+    padding-left: 1px;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-bronze {
+    flex-grow: 1;
+    color: #d35400;
+  }
+  .stackoverflow-profile .bottom .profile-stats-badge-bronze::after {
+    content: "BRONZE";
+    font-size: 8px;
+    color: #d35400;
+    opacity: 0.8;
+    padding-left: 1px;
+  }
+  
